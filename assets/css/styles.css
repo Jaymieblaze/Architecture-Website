@@ -110,7 +110,7 @@ img{
     .nav__menu{
         position: fixed;
         top: 0;
-        right: 0;
+        right: -100%;
         background-color: hsla(0, 0%, 100%, .1);
         backdrop-filter: blur(16px);
         -webkit-backdrop-filter: blur(16px);
@@ -140,4 +140,9 @@ img{
     position: absolute;
     top: 1rem;
     right: 1.5rem;
+}
+
+/* Show Menu */
+.show-menu{
+    right: 0;
 }
