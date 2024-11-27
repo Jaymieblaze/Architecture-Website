@@ -340,3 +340,16 @@ img{
         font-size: 3rem;
     }
 }
+
+/* For Taller devices */
+@media screen and (min-width:800px) and (min-height:800px){
+    .home__article{
+        padding-top: 17rem;
+    }
+
+    .swiper-pagination{
+        top: 13rem;
+    }
+
+
+}
